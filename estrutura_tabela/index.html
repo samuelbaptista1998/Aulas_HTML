@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página com tabela</title>
+  </head>
+  <body>
+    <h1>Página com tabela</h1>
+
+    <!-- table - tabela
+     thead - cabeça da tabela
+     tr - table row (linha da tabela)
+     th - table header (cabeçalho de tabela)
+     tbody - table body (corpo da tabela)
+     td - table deata (dados da tabela)
+     border - borda da tabela
+     colspan - estender a celula da tabela pros lados
+     rowspan - estende a celula da tebla pra baixo -->
+    <table border="1">
+      <caption>
+        Lista de produtos mais vendidos por mês
+      </caption>
+      <thead>
+        <tr>
+          <th>Mês</th>
+          <th>Produto</th>
+          <th>Preço</th>
+          <th>Quantidade</th>
+          <th>Total R$</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Janeiro</td>
+          <td>Camiseta</td>
+          <td>R$ 20,00</td>
+          <td>50</td>
+          <td>R$ 1000,00</td>
+        </tr>
+        <tr>
+          <td>Fevereiro</td>
+          <td>Calça</td>
+          <td>R$ 50,00</td>
+          <td>10</td>
+          <td>R$ 500,00</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="4">Total da soma dos meses</td>
+          <td>R$ 1500,00</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
